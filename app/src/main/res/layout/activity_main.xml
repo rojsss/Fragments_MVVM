@@ -8,14 +8,24 @@
     android:padding="10dp"
     >
 
+    <FrameLayout
+        android:id="@+id/FL_ContingutFragments"
+        android:layout_width="wrap_content"
+        android:layout_height="400dp"/>
 
-    <TextView
+    <Button
+        android:id="@+id/BTN_Fragment1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:text="Fragment 1"
+        android:layout_alignParentBottom="true"/>
+
+    <Button
+        android:id="@+id/BTN_Fragment2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fragment 2"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"/>
 
 </RelativeLayout>
